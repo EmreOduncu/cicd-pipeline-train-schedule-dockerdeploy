@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    node('slave1'){
+    node('slave'){
     stages {
         stage('Build') {
             steps {
