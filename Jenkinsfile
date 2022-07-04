@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-    node('slave'){
+    agent slave
     stages {
         stage('Build') {
             steps {
@@ -57,5 +56,4 @@ pipeline {
             }
         }
     }
-}
 }
