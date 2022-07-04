@@ -1,7 +1,7 @@
+node('slave'){
 pipeline {
     agent any
     stages {
-    node('slave'){
         stage('Build') {
             steps {
                 echo 'Running build automation'
